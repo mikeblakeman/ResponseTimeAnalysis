@@ -1,0 +1,6 @@
+framework module Pods_Response_Time_Analysis {
+  umbrella header "Pods-Response Time Analysis-umbrella.h"
+
+  export *
+  module * { export * }
+}

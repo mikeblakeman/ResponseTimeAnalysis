@@ -1,0 +1,1222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0326CBB5ADC63ACD09EDB395D40E4ACE /* Promise+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198A27BBA47D15A0B059E1F453A0E3B /* Promise+Retry.swift */; };
+		0410D02A7738D0DD275563C7799FF250 /* Promise+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC3BE9FE5F09FA88B540B622E91F06 /* Promise+Any.swift */; };
+		0903E19F5003EE1CF615AADC6C2C6ED4 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = D3631167982A50AE7A15AEFD89C42C60 /* FBLPromise+Validate.h */; };
+		118B9415E864001C6179A0C45CED2C5F /* Promise+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410223A09B85A332426676185CF9530 /* Promise+Reduce.swift */; };
+		135211285F61F5B957757F719BD4E7E6 /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A40514D5E6F5030C31373FF669801E /* FBLPromise+Await.h */; };
+		159D5A51530D5533251D303917A51947 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AEA9A3C16BA0276585FC441CAC730F1 /* FBLPromise+Retry.h */; };
+		17DDCE806CE51E14FD4BC320A595CE9F /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C8E32C1C98E8B23527A62C242E9F7D /* FBLPromise+Timeout.h */; };
+		24D9F5C1A2BC94B5E4C0A26DEE0D985B /* Promise+Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE8C5A72F607A9AF66F78677E46CAC /* Promise+Await.swift */; };
+		29B0E274E4EC7BA434C277843CEB639A /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A402818C52C036F933C89DC00F4AB21 /* FBLPromise+Then.m */; };
+		2D7339F12265FAA32FB752A8D666B043 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF14593FF3DBD648DF8D578BA8DB7E /* FBLPromise+Reduce.m */; };
+		31BA4EF05A583A46E14BECD4A5A66D1B /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ACA895D82FF3A470AD53971F2E43D7 /* FBLPromisePrivate.h */; };
+		333A42A84C4757CE1D1D7E5434799E98 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB700BC3D938B4667F2C5864E7B5FACC /* Promise.swift */; };
+		3586FB6C2742A4F5FED93DD3B701BA67 /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1071F3B0F628BC7848BCCE0021587C63 /* FBLPromise+Wrap.h */; };
+		36F48191710BC80CFC8F7CF331051164 /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC76EB74E871210D20C18FD907EF767 /* FBLPromise+Always.h */; };
+		380048508BEF7EE888F0E62CD1847C7E /* FBLPromiseError.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4F01BD013860FCD90E5CECEFED9ADFA4 /* FBLPromiseError.h */; };
+		38B98B09A471510DFFE1EAD28FD75DA5 /* FBLPromise+Reduce.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6A089075F603581B68AECAEFD052C282 /* FBLPromise+Reduce.h */; };
+		3935BFE1D7D6B56411DF88448E975789 /* FBLPromise+Do.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 73DF328DC0B508BB3C22A6E3D051DBB0 /* FBLPromise+Do.h */; };
+		3981FF69356BD1E6682FF52B70EB483C /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B74737114E9F6954D9E5463E0A5AC63 /* FBLPromises.h */; };
+		3EDC07DA526CE455AAB3D0700370B31D /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = 079B71336B959D6DDACD71EA3CE7B6BD /* FBLPromise+Async.h */; };
+		4084890A23CEC31F7A200F8380EB1AFC /* Promise+Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89610B48339FC2E8AFB1975C044F4657 /* Promise+Delay.swift */; };
+		41A27CEF4DCA8203E8D7FED29465BBAF /* FBLPromise+Validate.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D3631167982A50AE7A15AEFD89C42C60 /* FBLPromise+Validate.h */; };
+		41F0B94AD557B1662E7515C35FDEE7A2 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = 58074BC6C1DBC3005F9E6C71C0A114DD /* FBLPromise+Catch.h */; };
+		44FCF98E0E654DDA847B33B0CA28F526 /* PromisesSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7232F873DB4F1B7610813DF27AEE8E78 /* PromisesSwift-dummy.m */; };
+		48699D4E3E60ECB51020AA8710152474 /* FBLPromise+All.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5712F19B8EF887E2EB9DF038C660A7E0 /* FBLPromise+All.h */; };
+		49805AFCB125AA0B55797AF4B4EF23B4 /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C11609BFBAA87EBFCF7D06D53CE1DB1 /* FBLPromise+All.m */; };
+		4F812E1690B5495573E329CBF8B26BCB /* FBLPromise+Await.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 44A40514D5E6F5030C31373FF669801E /* FBLPromise+Await.h */; };
+		56182BBEBA28931192D5BE63F5F7B1C4 /* FBLPromise+Wrap.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1071F3B0F628BC7848BCCE0021587C63 /* FBLPromise+Wrap.h */; };
+		5749947CF3B49D8109D323D6A3B2CC5B /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 61103394C1C347B157984668085D5A20 /* FBLPromise+Delay.m */; };
+		5C8772929AEFF7F78F0DF57B7221A8BB /* Pods-Response Time Analysis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A118BB3E0E92D522A95619C8E524AAF /* Pods-Response Time Analysis-dummy.m */; };
+		5CE828E841EBAA5C2D382A43D4444598 /* PromiseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCF12AE00BA983C33EF87BF800FD14 /* PromiseError.swift */; };
+		6168065701AAB9A2CFFFAC0CBC64A092 /* FBLPromise+Recover.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 70DE7A637161552D327385FDD0D69D98 /* FBLPromise+Recover.h */; };
+		673FEA8EC0DF3439F91709B66519FBC8 /* Promise+Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18AAA3EE82295E56781A062CB0E32D3 /* Promise+Catch.swift */; };
+		68D4B9591747D2769FA9D42EE545F2A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697C92E861EDA0305F996581694F728 /* Cocoa.framework */; };
+		7027DD8101FFFE5000F5D02384310069 /* FBLPromise+Then.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 023BFE4431101F76BDC1B71436B2A0EB /* FBLPromise+Then.h */; };
+		73976C04B32C17B5932BE5D51B03E473 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F01BD013860FCD90E5CECEFED9ADFA4 /* FBLPromiseError.h */; };
+		7432A426D25A902E6943764D7BF2E347 /* Promise+Recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC009B83E33C798527ACAE4A3E3AA2C5 /* Promise+Recover.swift */; };
+		77C17EB4AABB852AD3ED824BDDFECBB7 /* FBLPromises.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2B74737114E9F6954D9E5463E0A5AC63 /* FBLPromises.h */; };
+		7BDD8E22E4919CEC1367D8885D1D7E40 /* Promise+Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912C3526F92103FC11F2E2367717FFC /* Promise+Do.swift */; };
+		7E225A9E54B045E65CD96C7D2EBF52C0 /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDB747168B3D3BF4BB0856054E62F4 /* FBLPromise+Testing.m */; };
+		7FBD6E0931A25AE4080F3FAF70657CFA /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 5712F19B8EF887E2EB9DF038C660A7E0 /* FBLPromise+All.h */; };
+		83C43941F68F868E75FE2904C4F67657 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697C92E861EDA0305F996581694F728 /* Cocoa.framework */; };
+		8BF0A7BC43796DCDFEA924B56856DF0E /* FBLPromise+Catch.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 58074BC6C1DBC3005F9E6C71C0A114DD /* FBLPromise+Catch.h */; };
+		911F6C93B231F391D59DDE9EB00DFF2D /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = AB103F9AC9B6D5EC75577B9C328C2307 /* FBLPromise+Any.h */; };
+		9235A11AAAC14D0EC85554F0757F927B /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E100D29DD9C684FD1F14185ACB862F /* FBLPromise+Catch.m */; };
+		92961198C863D70B27CEE38E60CB9F1B /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE997C0D735EF6B54F996FE670B5018 /* FBLPromise+Delay.h */; };
+		99E814B5CA918879B9CB9A9E5D4B66BC /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E940BD7C0801E778A4BFC4B377E7C0 /* FBLPromise+Recover.m */; };
+		9B9AF234DC5A90D6EFD62B0309A812BA /* FBLPromise+Any.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AB103F9AC9B6D5EC75577B9C328C2307 /* FBLPromise+Any.h */; };
+		9BC91D5FB9499B7E839CE40D241B5DC4 /* FBLPromisePrivate.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 41ACA895D82FF3A470AD53971F2E43D7 /* FBLPromisePrivate.h */; };
+		9D1F76A2BEB10BCA28547C7D10C8379C /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CC6BA3870FAEFFE3699D8212E39B97 /* FBLPromises.framework */; };
+		A27FC4DF40A751EC3C0CF20E437A2FFB /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = 053FBBB12B1CA2075B911D581D32534D /* FBLPromise+Any.m */; };
+		A5B68168E94BCCE5A80CBF8B1305943A /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A089075F603581B68AECAEFD052C282 /* FBLPromise+Reduce.h */; };
+		ABE464E60091D4034142D19E58C497EF /* Promise+All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6649C581429315298862D5D7A29E1 /* Promise+All.swift */; };
+		AE238DD5746780C64783F7BED7527BDC /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B234CBFF9074628CA40F9434359C7 /* Promise+Timeout.swift */; };
+		AED4223894DB42C1076BC9FAD3F33875 /* FBLPromise+Timeout.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 23C8E32C1C98E8B23527A62C242E9F7D /* FBLPromise+Timeout.h */; };
+		B2CA553398F5BD3B2EE2F3C7B776FF7F /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE4EC460D9CAF0881DB2FCB9742805 /* FBLPromise+Timeout.m */; };
+		B3372FC879CD0C194B6D13F22DF453DA /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = 023BFE4431101F76BDC1B71436B2A0EB /* FBLPromise+Then.h */; };
+		B7982E08CDD60AD6299160ACE9FB0618 /* PromisesObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCECA6124A3BFECCED437CEB4A4518 /* PromisesObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81A9F51B7C8E42A8C4DF6EE862F37FB /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = DD13E2024227616219F78EC17DC88621 /* FBLPromise+Always.m */; };
+		B88958CF3C764CFF318B0089074649E8 /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DBFD9C4B5C7AC868079BAAAAF838F8 /* FBLPromise+Validate.m */; };
+		B9B1FA9500659A2A5F6D875FEC9B0139 /* FBLPromise+Always.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BEC76EB74E871210D20C18FD907EF767 /* FBLPromise+Always.h */; };
+		BB97EE7854A441FB8F3FF3A12878B5C5 /* PromisesObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55FA0474928D2500995516CBFB50EDA /* PromisesObjC-dummy.m */; };
+		BC34513480B74C1614DB7A5C73D79E44 /* FBLPromise+Async.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 079B71336B959D6DDACD71EA3CE7B6BD /* FBLPromise+Async.h */; };
+		BF1AE495B7D0127034B477EB51ED8AD4 /* Promise+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AC265168994C21C795614083FBE19 /* Promise+Async.swift */; };
+		C0CA325453A545B8F01ED84D32090DDD /* Promise+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2CF1B92036743CF39AD750F88AB7C /* Promise+Validate.swift */; };
+		C10269A688159EA41BC61D5436096DBC /* PromisesSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC428ABF0965A439C248BF66B135BBA /* PromisesSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E51CE8317180E6A245268A7F5A2333 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D87FCABB8FB9DF2C283891821B15B72 /* FBLPromise+Race.h */; };
+		C6700A734BA724F44CCACB4493579A4A /* Promise+Wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5422689ED9B5626ADCF10FCA8EEC502 /* Promise+Wrap.swift */; };
+		C6BAA7B3532E7114980DFF771050C622 /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9ADD168E3134A75BF742FC3CA7E93 /* FBLPromiseError.m */; };
+		C8748D830F9D75B80CDDFAB4EF62D50A /* FBLPromise+Delay.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6EE997C0D735EF6B54F996FE670B5018 /* FBLPromise+Delay.h */; };
+		C9AEB3C8BA47364505797BC6A2C9811A /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BD1A401F4E5F6457F43149D8310DDF /* FBLPromise+Race.m */; };
+		CBC3C65D09E976C05DC7C60786AA9BDA /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = C30ACBE6BAE3A7222A3CAAF0533CB78D /* FBLPromise+Async.m */; };
+		CC4068940C068BF103F6B596FD320352 /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB562212279492A3FE7FFBA293E4A39 /* FBLPromise.h */; };
+		CD283B13E2ACBACD129668282923270B /* Promise+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86041B05B87F3BF5A94F284068D89E90 /* Promise+Testing.swift */; };
+		D346492B5C4946A022F2D7D6F57F26B0 /* FBLPromise.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AEB562212279492A3FE7FFBA293E4A39 /* FBLPromise.h */; };
+		D50FDE9473F24A0D19FAE69B815BBEA3 /* Promise+Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4CAC0C541E6EE915EAAB3708B13B8 /* Promise+Race.swift */; };
+		D6756C287309D6ED1C26CD4E3684B455 /* Promise+Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAB76AAC2F849EB9535331A35C0E8AA /* Promise+Then.swift */; };
+		D71B795B906375F8DDF7CA8016CCE09D /* Promise+Always.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD76B72CCB8A6D7D2B81E7875A54111 /* Promise+Always.swift */; };
+		D8C1776272DDF751E83BB81A154F05DD /* Pods-Response Time Analysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2737CE0D9BB003E140E93864871C6E /* Pods-Response Time Analysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C6213163E2D3AE327E6D9D2CED9CB8 /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DF328DC0B508BB3C22A6E3D051DBB0 /* FBLPromise+Do.h */; };
+		DAEC402F3106BF4801171A4AAAA71C36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7697C92E861EDA0305F996581694F728 /* Cocoa.framework */; };
+		DF70B75A352EAEB6BC2499536F2F4AF7 /* FBLPromise+Testing.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6DB11F167B3595CA8942FBE69872D0CD /* FBLPromise+Testing.h */; };
+		DF83C28E5B325C051856200F9E6D7551 /* FBLPromise+Race.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8D87FCABB8FB9DF2C283891821B15B72 /* FBLPromise+Race.h */; };
+		E0E22D85167F44A6A8DA19E6C8289936 /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783BAC4FD8E4103C6D95FA8157B6395 /* FBLPromise+Await.m */; };
+		EA029D607DE63FD189B559361B977CC1 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FCF9464F1C925470105B4046C173E /* FBLPromise+Do.m */; };
+		F3A468CB290958CFBBF458ECDF18D374 /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BD31E1BC9C1F20E4EE43348715FD07 /* FBLPromise+Wrap.m */; };
+		F540824D32C8B754FC197266F6A55002 /* FBLPromise+Retry.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6AEA9A3C16BA0276585FC441CAC730F1 /* FBLPromise+Retry.h */; };
+		F8813C6E8244FEB8858C527FA958002A /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB11F167B3595CA8942FBE69872D0CD /* FBLPromise+Testing.h */; };
+		FB8FA67ECED5673FABF4262803AC2C75 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F789FFB34D3A9DCE5627C9BBAA21B9E /* FBLPromise.m */; };
+		FDED158E0116FDC868F41577B59E2731 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B3F5A1F6AF8C1151B14E3B99DD1142 /* FBLPromise+Retry.m */; };
+		FF5108F805BE2F373E7419F5745BBFCD /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DE7A637161552D327385FDD0D69D98 /* FBLPromise+Recover.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ABAFB7D24E0AECAAADF7504D31F208F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
+		};
+		8083B4D079A7AC0D28E9FA84B49F7DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		9156A1DB925591B1EE0850527201692A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A979F9D3632CD5F2F7518F9A362CBAE3;
+			remoteInfo = PromisesSwift;
+		};
+		C40D36C041ED418B20B26DBCE3E29330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CAB7314C055762C3B6743E089734C0B /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				48699D4E3E60ECB51020AA8710152474 /* FBLPromise+All.h in Copy . Public Headers */,
+				B9B1FA9500659A2A5F6D875FEC9B0139 /* FBLPromise+Always.h in Copy . Public Headers */,
+				9B9AF234DC5A90D6EFD62B0309A812BA /* FBLPromise+Any.h in Copy . Public Headers */,
+				BC34513480B74C1614DB7A5C73D79E44 /* FBLPromise+Async.h in Copy . Public Headers */,
+				4F812E1690B5495573E329CBF8B26BCB /* FBLPromise+Await.h in Copy . Public Headers */,
+				8BF0A7BC43796DCDFEA924B56856DF0E /* FBLPromise+Catch.h in Copy . Public Headers */,
+				C8748D830F9D75B80CDDFAB4EF62D50A /* FBLPromise+Delay.h in Copy . Public Headers */,
+				3935BFE1D7D6B56411DF88448E975789 /* FBLPromise+Do.h in Copy . Public Headers */,
+				DF83C28E5B325C051856200F9E6D7551 /* FBLPromise+Race.h in Copy . Public Headers */,
+				6168065701AAB9A2CFFFAC0CBC64A092 /* FBLPromise+Recover.h in Copy . Public Headers */,
+				38B98B09A471510DFFE1EAD28FD75DA5 /* FBLPromise+Reduce.h in Copy . Public Headers */,
+				F540824D32C8B754FC197266F6A55002 /* FBLPromise+Retry.h in Copy . Public Headers */,
+				DF70B75A352EAEB6BC2499536F2F4AF7 /* FBLPromise+Testing.h in Copy . Public Headers */,
+				7027DD8101FFFE5000F5D02384310069 /* FBLPromise+Then.h in Copy . Public Headers */,
+				AED4223894DB42C1076BC9FAD3F33875 /* FBLPromise+Timeout.h in Copy . Public Headers */,
+				41A27CEF4DCA8203E8D7FED29465BBAF /* FBLPromise+Validate.h in Copy . Public Headers */,
+				56182BBEBA28931192D5BE63F5F7B1C4 /* FBLPromise+Wrap.h in Copy . Public Headers */,
+				D346492B5C4946A022F2D7D6F57F26B0 /* FBLPromise.h in Copy . Public Headers */,
+				380048508BEF7EE888F0E62CD1847C7E /* FBLPromiseError.h in Copy . Public Headers */,
+				77C17EB4AABB852AD3ED824BDDFECBB7 /* FBLPromises.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E14BCB763C822DB64F20DA977131444 /* Copy . Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				9BC91D5FB9499B7E839CE40D241B5DC4 /* FBLPromisePrivate.h in Copy . Private Headers */,
+			);
+			name = "Copy . Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		023BFE4431101F76BDC1B71436B2A0EB /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
+		053FBBB12B1CA2075B911D581D32534D /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
+		079B71336B959D6DDACD71EA3CE7B6BD /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
+		1071F3B0F628BC7848BCCE0021587C63 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
+		13E940BD7C0801E778A4BFC4B377E7C0 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
+		15B3F5A1F6AF8C1151B14E3B99DD1142 /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
+		1783BAC4FD8E4103C6D95FA8157B6395 /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
+		1AD6238A7431DBB959C24E4A3039440B /* Pods-Response Time Analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Response Time Analysis.debug.xcconfig"; sourceTree = "<group>"; };
+		1F789FFB34D3A9DCE5627C9BBAA21B9E /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
+		1FAC3BE9FE5F09FA88B540B622E91F06 /* Promise+Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Any.swift"; path = "Sources/Promises/Promise+Any.swift"; sourceTree = "<group>"; };
+		20DBFD9C4B5C7AC868079BAAAAF838F8 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
+		23C8E32C1C98E8B23527A62C242E9F7D /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
+		27FE8C5A72F607A9AF66F78677E46CAC /* Promise+Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Await.swift"; path = "Sources/Promises/Promise+Await.swift"; sourceTree = "<group>"; };
+		2A402818C52C036F933C89DC00F4AB21 /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
+		2B74737114E9F6954D9E5463E0A5AC63 /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
+		2C11609BFBAA87EBFCF7D06D53CE1DB1 /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
+		2DD52A8CABC67080D0234393ADD67EBA /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		2EFDB747168B3D3BF4BB0856054E62F4 /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
+		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3636C5CF469E0D7B072FBE8026962C9C /* Pods-Response Time Analysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Response Time Analysis.modulemap"; sourceTree = "<group>"; };
+		364A75F6FA1BBE2E116AD02F4EF1E1F7 /* Pods-Response Time Analysis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Response Time Analysis-frameworks.sh"; sourceTree = "<group>"; };
+		379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Promises.framework; path = PromisesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EE4EC460D9CAF0881DB2FCB9742805 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
+		41ACA895D82FF3A470AD53971F2E43D7 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		42A6649C581429315298862D5D7A29E1 /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Promises/Promise+All.swift"; sourceTree = "<group>"; };
+		44A40514D5E6F5030C31373FF669801E /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
+		4BB4CAC0C541E6EE915EAAB3708B13B8 /* Promise+Race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Race.swift"; path = "Sources/Promises/Promise+Race.swift"; sourceTree = "<group>"; };
+		4DD76B72CCB8A6D7D2B81E7875A54111 /* Promise+Always.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Always.swift"; path = "Sources/Promises/Promise+Always.swift"; sourceTree = "<group>"; };
+		4F01BD013860FCD90E5CECEFED9ADFA4 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
+		50BCECA6124A3BFECCED437CEB4A4518 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
+		54AC3860B20BB7EB780FAF3F221B2BCB /* PromisesSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-prefix.pch"; sourceTree = "<group>"; };
+		5712F19B8EF887E2EB9DF038C660A7E0 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
+		58074BC6C1DBC3005F9E6C71C0A114DD /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		5DFA74F1CA340B8B05A45B455F3A51BC /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
+		5FC428ABF0965A439C248BF66B135BBA /* PromisesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-umbrella.h"; sourceTree = "<group>"; };
+		61103394C1C347B157984668085D5A20 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
+		6585B9D7E5B5B01C362A1EA81FC4000C /* Pods-Response Time Analysis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Response Time Analysis-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A089075F603581B68AECAEFD052C282 /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
+		6AEA9A3C16BA0276585FC441CAC730F1 /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
+		6DB11F167B3595CA8942FBE69872D0CD /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
+		6EE997C0D735EF6B54F996FE670B5018 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
+		70DE7A637161552D327385FDD0D69D98 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
+		7232F873DB4F1B7610813DF27AEE8E78 /* PromisesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesSwift-dummy.m"; sourceTree = "<group>"; };
+		73DF328DC0B508BB3C22A6E3D051DBB0 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
+		7697C92E861EDA0305F996581694F728 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		7BAB76AAC2F849EB9535331A35C0E8AA /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Sources/Promises/Promise+Then.swift"; sourceTree = "<group>"; };
+		86041B05B87F3BF5A94F284068D89E90 /* Promise+Testing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Testing.swift"; path = "Sources/Promises/Promise+Testing.swift"; sourceTree = "<group>"; };
+		89610B48339FC2E8AFB1975C044F4657 /* Promise+Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Delay.swift"; path = "Sources/Promises/Promise+Delay.swift"; sourceTree = "<group>"; };
+		8A118BB3E0E92D522A95619C8E524AAF /* Pods-Response Time Analysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Response Time Analysis-dummy.m"; sourceTree = "<group>"; };
+		8AD9ADD168E3134A75BF742FC3CA7E93 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		8D87FCABB8FB9DF2C283891821B15B72 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
+		8D8AA26014D6BB9DD57A84FC5296EF65 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
+		8EA2CF1B92036743CF39AD750F88AB7C /* Promise+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Validate.swift"; path = "Sources/Promises/Promise+Validate.swift"; sourceTree = "<group>"; };
+		8F6291A095E548A7F83FA1CC11BE79B8 /* Pods-Response Time Analysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Response Time Analysis.release.xcconfig"; sourceTree = "<group>"; };
+		92BD1A401F4E5F6457F43149D8310DDF /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
+		93FF14593FF3DBD648DF8D578BA8DB7E /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
+		94E100D29DD9C684FD1F14185ACB862F /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
+		954AC265168994C21C795614083FBE19 /* Promise+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Async.swift"; path = "Sources/Promises/Promise+Async.swift"; sourceTree = "<group>"; };
+		98AC82A954B60E498205B79E281B5247 /* PromisesObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.xcconfig; sourceTree = "<group>"; };
+		99BCF12AE00BA983C33EF87BF800FD14 /* PromiseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromiseError.swift; path = Sources/Promises/PromiseError.swift; sourceTree = "<group>"; };
+		9D2C6D1F15AAED6919EA6A34F9C5670F /* Pods-Response Time Analysis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Response Time Analysis-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5354B1F585A863008F9CA9486AAECE8 /* Pods-Response Time Analysis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Response Time Analysis-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA2737CE0D9BB003E140E93864871C6E /* Pods-Response Time Analysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Response Time Analysis-umbrella.h"; sourceTree = "<group>"; };
+		AB103F9AC9B6D5EC75577B9C328C2307 /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
+		AB700BC3D938B4667F2C5864E7B5FACC /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promises/Promise.swift; sourceTree = "<group>"; };
+		AEB562212279492A3FE7FFBA293E4A39 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
+		B198A27BBA47D15A0B059E1F453A0E3B /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Sources/Promises/Promise+Retry.swift"; sourceTree = "<group>"; };
+		B55FA0474928D2500995516CBFB50EDA /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
+		BC009B83E33C798527ACAE4A3E3AA2C5 /* Promise+Recover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Recover.swift"; path = "Sources/Promises/Promise+Recover.swift"; sourceTree = "<group>"; };
+		BEC76EB74E871210D20C18FD907EF767 /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
+		BF5FCF9464F1C925470105B4046C173E /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
+		C30ACBE6BAE3A7222A3CAAF0533CB78D /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
+		C4CC6BA3870FAEFFE3699D8212E39B97 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C912C3526F92103FC11F2E2367717FFC /* Promise+Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Do.swift"; path = "Sources/Promises/Promise+Do.swift"; sourceTree = "<group>"; };
+		D03B234CBFF9074628CA40F9434359C7 /* Promise+Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Timeout.swift"; path = "Sources/Promises/Promise+Timeout.swift"; sourceTree = "<group>"; };
+		D2FB353B1BF2E381626BC1E5F6FD493D /* PromisesSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesSwift-Info.plist"; sourceTree = "<group>"; };
+		D3631167982A50AE7A15AEFD89C42C60 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
+		D410223A09B85A332426676185CF9530 /* Promise+Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Reduce.swift"; path = "Sources/Promises/Promise+Reduce.swift"; sourceTree = "<group>"; };
+		D6BD31E1BC9C1F20E4EE43348715FD07 /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Wrap.m"; path = "Sources/FBLPromises/FBLPromise+Wrap.m"; sourceTree = "<group>"; };
+		DD13E2024227616219F78EC17DC88621 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
+		DD14FDE1B73615F5E561435FDF0B6CE2 /* Pods_Response_Time_Analysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Response_Time_Analysis.framework; path = "Pods-Response Time Analysis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18AAA3EE82295E56781A062CB0E32D3 /* Promise+Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Catch.swift"; path = "Sources/Promises/Promise+Catch.swift"; sourceTree = "<group>"; };
+		E5422689ED9B5626ADCF10FCA8EEC502 /* Promise+Wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Wrap.swift"; path = "Sources/Promises/Promise+Wrap.swift"; sourceTree = "<group>"; };
+		EC597B888F9ECC52F6FF42C8BFEF3054 /* PromisesSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesSwift.xcconfig; sourceTree = "<group>"; };
+		ED2FF99BC99E4F9A3B84A509420E6FA8 /* PromisesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesSwift.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490DC692D9E97160873B90E7359A3D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEC402F3106BF4801171A4AAAA71C36 /* Cocoa.framework in Frameworks */,
+				9D1F76A2BEB10BCA28547C7D10C8379C /* FBLPromises.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A956E3570846625D536B7AEC302544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C43941F68F868E75FE2904C4F67657 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A6C18AD9CD10B9EC6CC8C85FFDCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D4B9591747D2769FA9D42EE545F2A0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE96BB19AEA4402BBFE29F6FA8BD4ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B10D47A0968B1FC345A65689AA4D735F /* PromisesObjC */,
+				2E6AAA56C76B07A195DE46056064A07C /* PromisesSwift */,
+				745E2206A30286E7A2E006DC8AB6E785 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E6AAA56C76B07A195DE46056064A07C /* PromisesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AB700BC3D938B4667F2C5864E7B5FACC /* Promise.swift */,
+				42A6649C581429315298862D5D7A29E1 /* Promise+All.swift */,
+				4DD76B72CCB8A6D7D2B81E7875A54111 /* Promise+Always.swift */,
+				1FAC3BE9FE5F09FA88B540B622E91F06 /* Promise+Any.swift */,
+				954AC265168994C21C795614083FBE19 /* Promise+Async.swift */,
+				27FE8C5A72F607A9AF66F78677E46CAC /* Promise+Await.swift */,
+				E18AAA3EE82295E56781A062CB0E32D3 /* Promise+Catch.swift */,
+				89610B48339FC2E8AFB1975C044F4657 /* Promise+Delay.swift */,
+				C912C3526F92103FC11F2E2367717FFC /* Promise+Do.swift */,
+				4BB4CAC0C541E6EE915EAAB3708B13B8 /* Promise+Race.swift */,
+				BC009B83E33C798527ACAE4A3E3AA2C5 /* Promise+Recover.swift */,
+				D410223A09B85A332426676185CF9530 /* Promise+Reduce.swift */,
+				B198A27BBA47D15A0B059E1F453A0E3B /* Promise+Retry.swift */,
+				86041B05B87F3BF5A94F284068D89E90 /* Promise+Testing.swift */,
+				7BAB76AAC2F849EB9535331A35C0E8AA /* Promise+Then.swift */,
+				D03B234CBFF9074628CA40F9434359C7 /* Promise+Timeout.swift */,
+				8EA2CF1B92036743CF39AD750F88AB7C /* Promise+Validate.swift */,
+				E5422689ED9B5626ADCF10FCA8EEC502 /* Promise+Wrap.swift */,
+				99BCF12AE00BA983C33EF87BF800FD14 /* PromiseError.swift */,
+				CED98043F773A8EEE025DEBB865EC656 /* Support Files */,
+			);
+			name = PromisesSwift;
+			path = PromisesSwift;
+			sourceTree = "<group>";
+		};
+		51790DA9D85FBF4FFEDF9F9D5D1F6C65 /* Pods-Response Time Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				3636C5CF469E0D7B072FBE8026962C9C /* Pods-Response Time Analysis.modulemap */,
+				A5354B1F585A863008F9CA9486AAECE8 /* Pods-Response Time Analysis-acknowledgements.markdown */,
+				6585B9D7E5B5B01C362A1EA81FC4000C /* Pods-Response Time Analysis-acknowledgements.plist */,
+				8A118BB3E0E92D522A95619C8E524AAF /* Pods-Response Time Analysis-dummy.m */,
+				364A75F6FA1BBE2E116AD02F4EF1E1F7 /* Pods-Response Time Analysis-frameworks.sh */,
+				9D2C6D1F15AAED6919EA6A34F9C5670F /* Pods-Response Time Analysis-Info.plist */,
+				AA2737CE0D9BB003E140E93864871C6E /* Pods-Response Time Analysis-umbrella.h */,
+				1AD6238A7431DBB959C24E4A3039440B /* Pods-Response Time Analysis.debug.xcconfig */,
+				8F6291A095E548A7F83FA1CC11BE79B8 /* Pods-Response Time Analysis.release.xcconfig */,
+			);
+			name = "Pods-Response Time Analysis";
+			path = "Target Support Files/Pods-Response Time Analysis";
+			sourceTree = "<group>";
+		};
+		55A5548B4F3CDB4CE951281EC0D19A5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD52A8CABC67080D0234393ADD67EBA /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		721A5BEE23DA7671F20041285B3B6D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CC6BA3870FAEFFE3699D8212E39B97 /* FBLPromises.framework */,
+				BCB6635CF43EE600E9BB03AF6482354C /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		745E2206A30286E7A2E006DC8AB6E785 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				55A5548B4F3CDB4CE951281EC0D19A5C /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		B02C6FC3865CE885475C9E55D350A30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				DD14FDE1B73615F5E561435FDF0B6CE2 /* Pods_Response_Time_Analysis.framework */,
+				379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10D47A0968B1FC345A65689AA4D735F /* PromisesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				AEB562212279492A3FE7FFBA293E4A39 /* FBLPromise.h */,
+				1F789FFB34D3A9DCE5627C9BBAA21B9E /* FBLPromise.m */,
+				5712F19B8EF887E2EB9DF038C660A7E0 /* FBLPromise+All.h */,
+				2C11609BFBAA87EBFCF7D06D53CE1DB1 /* FBLPromise+All.m */,
+				BEC76EB74E871210D20C18FD907EF767 /* FBLPromise+Always.h */,
+				DD13E2024227616219F78EC17DC88621 /* FBLPromise+Always.m */,
+				AB103F9AC9B6D5EC75577B9C328C2307 /* FBLPromise+Any.h */,
+				053FBBB12B1CA2075B911D581D32534D /* FBLPromise+Any.m */,
+				079B71336B959D6DDACD71EA3CE7B6BD /* FBLPromise+Async.h */,
+				C30ACBE6BAE3A7222A3CAAF0533CB78D /* FBLPromise+Async.m */,
+				44A40514D5E6F5030C31373FF669801E /* FBLPromise+Await.h */,
+				1783BAC4FD8E4103C6D95FA8157B6395 /* FBLPromise+Await.m */,
+				58074BC6C1DBC3005F9E6C71C0A114DD /* FBLPromise+Catch.h */,
+				94E100D29DD9C684FD1F14185ACB862F /* FBLPromise+Catch.m */,
+				6EE997C0D735EF6B54F996FE670B5018 /* FBLPromise+Delay.h */,
+				61103394C1C347B157984668085D5A20 /* FBLPromise+Delay.m */,
+				73DF328DC0B508BB3C22A6E3D051DBB0 /* FBLPromise+Do.h */,
+				BF5FCF9464F1C925470105B4046C173E /* FBLPromise+Do.m */,
+				8D87FCABB8FB9DF2C283891821B15B72 /* FBLPromise+Race.h */,
+				92BD1A401F4E5F6457F43149D8310DDF /* FBLPromise+Race.m */,
+				70DE7A637161552D327385FDD0D69D98 /* FBLPromise+Recover.h */,
+				13E940BD7C0801E778A4BFC4B377E7C0 /* FBLPromise+Recover.m */,
+				6A089075F603581B68AECAEFD052C282 /* FBLPromise+Reduce.h */,
+				93FF14593FF3DBD648DF8D578BA8DB7E /* FBLPromise+Reduce.m */,
+				6AEA9A3C16BA0276585FC441CAC730F1 /* FBLPromise+Retry.h */,
+				15B3F5A1F6AF8C1151B14E3B99DD1142 /* FBLPromise+Retry.m */,
+				6DB11F167B3595CA8942FBE69872D0CD /* FBLPromise+Testing.h */,
+				2EFDB747168B3D3BF4BB0856054E62F4 /* FBLPromise+Testing.m */,
+				023BFE4431101F76BDC1B71436B2A0EB /* FBLPromise+Then.h */,
+				2A402818C52C036F933C89DC00F4AB21 /* FBLPromise+Then.m */,
+				23C8E32C1C98E8B23527A62C242E9F7D /* FBLPromise+Timeout.h */,
+				39EE4EC460D9CAF0881DB2FCB9742805 /* FBLPromise+Timeout.m */,
+				D3631167982A50AE7A15AEFD89C42C60 /* FBLPromise+Validate.h */,
+				20DBFD9C4B5C7AC868079BAAAAF838F8 /* FBLPromise+Validate.m */,
+				1071F3B0F628BC7848BCCE0021587C63 /* FBLPromise+Wrap.h */,
+				D6BD31E1BC9C1F20E4EE43348715FD07 /* FBLPromise+Wrap.m */,
+				4F01BD013860FCD90E5CECEFED9ADFA4 /* FBLPromiseError.h */,
+				8AD9ADD168E3134A75BF742FC3CA7E93 /* FBLPromiseError.m */,
+				41ACA895D82FF3A470AD53971F2E43D7 /* FBLPromisePrivate.h */,
+				2B74737114E9F6954D9E5463E0A5AC63 /* FBLPromises.h */,
+				B6C90E6BF47173379CCEFB7A1E50151C /* Support Files */,
+			);
+			name = PromisesObjC;
+			path = PromisesObjC;
+			sourceTree = "<group>";
+		};
+		B6C90E6BF47173379CCEFB7A1E50151C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AA26014D6BB9DD57A84FC5296EF65 /* PromisesObjC.modulemap */,
+				98AC82A954B60E498205B79E281B5247 /* PromisesObjC.xcconfig */,
+				B55FA0474928D2500995516CBFB50EDA /* PromisesObjC-dummy.m */,
+				5DFA74F1CA340B8B05A45B455F3A51BC /* PromisesObjC-Info.plist */,
+				50BCECA6124A3BFECCED437CEB4A4518 /* PromisesObjC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromisesObjC";
+			sourceTree = "<group>";
+		};
+		BCB6635CF43EE600E9BB03AF6482354C /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				7697C92E861EDA0305F996581694F728 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CED98043F773A8EEE025DEBB865EC656 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FF99BC99E4F9A3B84A509420E6FA8 /* PromisesSwift.modulemap */,
+				EC597B888F9ECC52F6FF42C8BFEF3054 /* PromisesSwift.xcconfig */,
+				7232F873DB4F1B7610813DF27AEE8E78 /* PromisesSwift-dummy.m */,
+				D2FB353B1BF2E381626BC1E5F6FD493D /* PromisesSwift-Info.plist */,
+				54AC3860B20BB7EB780FAF3F221B2BCB /* PromisesSwift-prefix.pch */,
+				5FC428ABF0965A439C248BF66B135BBA /* PromisesSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromisesSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				721A5BEE23DA7671F20041285B3B6D2E /* Frameworks */,
+				2DE96BB19AEA4402BBFE29F6FA8BD4ED /* Pods */,
+				B02C6FC3865CE885475C9E55D350A30F /* Products */,
+				FFFA987F26827EEFEAC90540F02F4F5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFA987F26827EEFEAC90540F02F4F5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51790DA9D85FBF4FFEDF9F9D5D1F6C65 /* Pods-Response Time Analysis */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B8A6FF33B58F6C63275E9E58ACFF378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FBD6E0931A25AE4080F3FAF70657CFA /* FBLPromise+All.h in Headers */,
+				36F48191710BC80CFC8F7CF331051164 /* FBLPromise+Always.h in Headers */,
+				911F6C93B231F391D59DDE9EB00DFF2D /* FBLPromise+Any.h in Headers */,
+				3EDC07DA526CE455AAB3D0700370B31D /* FBLPromise+Async.h in Headers */,
+				135211285F61F5B957757F719BD4E7E6 /* FBLPromise+Await.h in Headers */,
+				41F0B94AD557B1662E7515C35FDEE7A2 /* FBLPromise+Catch.h in Headers */,
+				92961198C863D70B27CEE38E60CB9F1B /* FBLPromise+Delay.h in Headers */,
+				D9C6213163E2D3AE327E6D9D2CED9CB8 /* FBLPromise+Do.h in Headers */,
+				C2E51CE8317180E6A245268A7F5A2333 /* FBLPromise+Race.h in Headers */,
+				FF5108F805BE2F373E7419F5745BBFCD /* FBLPromise+Recover.h in Headers */,
+				A5B68168E94BCCE5A80CBF8B1305943A /* FBLPromise+Reduce.h in Headers */,
+				159D5A51530D5533251D303917A51947 /* FBLPromise+Retry.h in Headers */,
+				F8813C6E8244FEB8858C527FA958002A /* FBLPromise+Testing.h in Headers */,
+				B3372FC879CD0C194B6D13F22DF453DA /* FBLPromise+Then.h in Headers */,
+				17DDCE806CE51E14FD4BC320A595CE9F /* FBLPromise+Timeout.h in Headers */,
+				0903E19F5003EE1CF615AADC6C2C6ED4 /* FBLPromise+Validate.h in Headers */,
+				3586FB6C2742A4F5FED93DD3B701BA67 /* FBLPromise+Wrap.h in Headers */,
+				CC4068940C068BF103F6B596FD320352 /* FBLPromise.h in Headers */,
+				73976C04B32C17B5932BE5D51B03E473 /* FBLPromiseError.h in Headers */,
+				31BA4EF05A583A46E14BECD4A5A66D1B /* FBLPromisePrivate.h in Headers */,
+				3981FF69356BD1E6682FF52B70EB483C /* FBLPromises.h in Headers */,
+				B7982E08CDD60AD6299160ACE9FB0618 /* PromisesObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FEC521B4D09642E4E1662FC2D32604 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10269A688159EA41BC61D5436096DBC /* PromisesSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C718179DDC89B6CF286AC4375E4AD7B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C1776272DDF751E83BB81A154F05DD /* Pods-Response Time Analysis-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B8EEDB2E8BD9C0A1A837173E360BE90 /* Pods-Response Time Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520F0F7FDA059C6344694E6876041F49 /* Build configuration list for PBXNativeTarget "Pods-Response Time Analysis" */;
+			buildPhases = (
+				C718179DDC89B6CF286AC4375E4AD7B2 /* Headers */,
+				D4F601AE08A97C17D8F770B83D9D1782 /* Sources */,
+				C33A6C18AD9CD10B9EC6CC8C85FFDCB1 /* Frameworks */,
+				64DEE66917D8364B627588428546B2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6321DC15EE35F68708D3D0934570C8E0 /* PBXTargetDependency */,
+				DBB31EFDADDFF80F1161FEB203300305 /* PBXTargetDependency */,
+				B89C68F76759A3672CDA410969B51045 /* PBXTargetDependency */,
+			);
+			name = "Pods-Response Time Analysis";
+			productName = "Pods-Response Time Analysis";
+			productReference = DD14FDE1B73615F5E561435FDF0B6CE2 /* Pods_Response_Time_Analysis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7350EBF6368E1D9BC38BBC16074D89A /* Build configuration list for PBXNativeTarget "PromisesObjC" */;
+			buildPhases = (
+				2B8A6FF33B58F6C63275E9E58ACFF378 /* Headers */,
+				C58AC100BB7B1032804DB0C25130148C /* Sources */,
+				88A956E3570846625D536B7AEC302544 /* Frameworks */,
+				8969D2EEC31D7CD14AEB8A85791BD2E8 /* Resources */,
+				5CAB7314C055762C3B6743E089734C0B /* Copy . Public Headers */,
+				5E14BCB763C822DB64F20DA977131444 /* Copy . Private Headers */,
+				14C7ADC25716E6D3F1AF618438CFBA22 /* Create Symlinks to Header Folders */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromisesObjC;
+			productName = PromisesObjC;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16B8954D73698E5D90EA478D253901 /* Build configuration list for PBXNativeTarget "PromisesSwift" */;
+			buildPhases = (
+				31FEC521B4D09642E4E1662FC2D32604 /* Headers */,
+				1FC19F3B6CA1E1EE7B1BD0903B25DDEE /* Sources */,
+				490DC692D9E97160873B90E7359A3D0A /* Frameworks */,
+				6E971FF097B4BF4450E03FE9EB0F8E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FF9BD5E8044A21E44C8E12AE79D26B /* PBXTargetDependency */,
+			);
+			name = PromisesSwift;
+			productName = PromisesSwift;
+			productReference = 379E5319BC6B4AE5613DFF7EEEAA6905 /* Promises.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B02C6FC3865CE885475C9E55D350A30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8EEDB2E8BD9C0A1A837173E360BE90 /* Pods-Response Time Analysis */,
+				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
+				A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DEE66917D8364B627588428546B2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E971FF097B4BF4450E03FE9EB0F8E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8969D2EEC31D7CD14AEB8A85791BD2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C7ADC25716E6D3F1AF618438CFBA22 /* Create Symlinks to Header Folders */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create Symlinks to Header Folders";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "base=\"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs \"$base/${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$base/${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nln -fs \"$base/${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$base/${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC19F3B6CA1E1EE7B1BD0903B25DDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE464E60091D4034142D19E58C497EF /* Promise+All.swift in Sources */,
+				D71B795B906375F8DDF7CA8016CCE09D /* Promise+Always.swift in Sources */,
+				0410D02A7738D0DD275563C7799FF250 /* Promise+Any.swift in Sources */,
+				BF1AE495B7D0127034B477EB51ED8AD4 /* Promise+Async.swift in Sources */,
+				24D9F5C1A2BC94B5E4C0A26DEE0D985B /* Promise+Await.swift in Sources */,
+				673FEA8EC0DF3439F91709B66519FBC8 /* Promise+Catch.swift in Sources */,
+				4084890A23CEC31F7A200F8380EB1AFC /* Promise+Delay.swift in Sources */,
+				7BDD8E22E4919CEC1367D8885D1D7E40 /* Promise+Do.swift in Sources */,
+				D50FDE9473F24A0D19FAE69B815BBEA3 /* Promise+Race.swift in Sources */,
+				7432A426D25A902E6943764D7BF2E347 /* Promise+Recover.swift in Sources */,
+				118B9415E864001C6179A0C45CED2C5F /* Promise+Reduce.swift in Sources */,
+				0326CBB5ADC63ACD09EDB395D40E4ACE /* Promise+Retry.swift in Sources */,
+				CD283B13E2ACBACD129668282923270B /* Promise+Testing.swift in Sources */,
+				D6756C287309D6ED1C26CD4E3684B455 /* Promise+Then.swift in Sources */,
+				AE238DD5746780C64783F7BED7527BDC /* Promise+Timeout.swift in Sources */,
+				C0CA325453A545B8F01ED84D32090DDD /* Promise+Validate.swift in Sources */,
+				C6700A734BA724F44CCACB4493579A4A /* Promise+Wrap.swift in Sources */,
+				333A42A84C4757CE1D1D7E5434799E98 /* Promise.swift in Sources */,
+				5CE828E841EBAA5C2D382A43D4444598 /* PromiseError.swift in Sources */,
+				44FCF98E0E654DDA847B33B0CA28F526 /* PromisesSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58AC100BB7B1032804DB0C25130148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49805AFCB125AA0B55797AF4B4EF23B4 /* FBLPromise+All.m in Sources */,
+				B81A9F51B7C8E42A8C4DF6EE862F37FB /* FBLPromise+Always.m in Sources */,
+				A27FC4DF40A751EC3C0CF20E437A2FFB /* FBLPromise+Any.m in Sources */,
+				CBC3C65D09E976C05DC7C60786AA9BDA /* FBLPromise+Async.m in Sources */,
+				E0E22D85167F44A6A8DA19E6C8289936 /* FBLPromise+Await.m in Sources */,
+				9235A11AAAC14D0EC85554F0757F927B /* FBLPromise+Catch.m in Sources */,
+				5749947CF3B49D8109D323D6A3B2CC5B /* FBLPromise+Delay.m in Sources */,
+				EA029D607DE63FD189B559361B977CC1 /* FBLPromise+Do.m in Sources */,
+				C9AEB3C8BA47364505797BC6A2C9811A /* FBLPromise+Race.m in Sources */,
+				99E814B5CA918879B9CB9A9E5D4B66BC /* FBLPromise+Recover.m in Sources */,
+				2D7339F12265FAA32FB752A8D666B043 /* FBLPromise+Reduce.m in Sources */,
+				FDED158E0116FDC868F41577B59E2731 /* FBLPromise+Retry.m in Sources */,
+				7E225A9E54B045E65CD96C7D2EBF52C0 /* FBLPromise+Testing.m in Sources */,
+				29B0E274E4EC7BA434C277843CEB639A /* FBLPromise+Then.m in Sources */,
+				B2CA553398F5BD3B2EE2F3C7B776FF7F /* FBLPromise+Timeout.m in Sources */,
+				B88958CF3C764CFF318B0089074649E8 /* FBLPromise+Validate.m in Sources */,
+				F3A468CB290958CFBBF458ECDF18D374 /* FBLPromise+Wrap.m in Sources */,
+				FB8FA67ECED5673FABF4262803AC2C75 /* FBLPromise.m in Sources */,
+				C6BAA7B3532E7114980DFF771050C622 /* FBLPromiseError.m in Sources */,
+				BB97EE7854A441FB8F3FF3A12878B5C5 /* PromisesObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F601AE08A97C17D8F770B83D9D1782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8772929AEFF7F78F0DF57B7221A8BB /* Pods-Response Time Analysis-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6321DC15EE35F68708D3D0934570C8E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = C40D36C041ED418B20B26DBCE3E29330 /* PBXContainerItemProxy */;
+		};
+		69FF9BD5E8044A21E44C8E12AE79D26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = 2ABAFB7D24E0AECAAADF7504D31F208F /* PBXContainerItemProxy */;
+		};
+		B89C68F76759A3672CDA410969B51045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 8083B4D079A7AC0D28E9FA84B49F7DD4 /* PBXContainerItemProxy */;
+		};
+		DBB31EFDADDFF80F1161FEB203300305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesSwift;
+			target = A979F9D3632CD5F2F7518F9A362CBAE3 /* PromisesSwift */;
+			targetProxy = 9156A1DB925591B1EE0850527201692A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		41160F3B638A6788B014453FE8037C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD6238A7431DBB959C24E4A3039440B /* Pods-Response Time Analysis.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Response Time Analysis/Pods-Response Time Analysis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Response Time Analysis/Pods-Response Time Analysis.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83E2FD59D8A66557FCCD03F0A3A976D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC597B888F9ECC52F6FF42C8BFEF3054 /* PromisesSwift.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PromisesSwift/PromisesSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromisesSwift/PromisesSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PromisesSwift/PromisesSwift.modulemap";
+				PRODUCT_MODULE_NAME = Promises;
+				PRODUCT_NAME = Promises;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B2757D413B867ECEFDC200DDE84AFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD52A8CABC67080D0234393ADD67EBA /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B7DC317373A745E84C299CB666519D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AC82A954B60E498205B79E281B5247 /* PromisesObjC.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9790A854647EA285AFEE94FE5B0ECA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC597B888F9ECC52F6FF42C8BFEF3054 /* PromisesSwift.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PromisesSwift/PromisesSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromisesSwift/PromisesSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PromisesSwift/PromisesSwift.modulemap";
+				PRODUCT_MODULE_NAME = Promises;
+				PRODUCT_NAME = Promises;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A11EFAA227A845D9277A4D15D8A503ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6291A095E548A7F83FA1CC11BE79B8 /* Pods-Response Time Analysis.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Response Time Analysis/Pods-Response Time Analysis-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Response Time Analysis/Pods-Response Time Analysis.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBA0CC105C99CE8BFDA51C62E70EA605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD52A8CABC67080D0234393ADD67EBA /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF058B10244C5DB3A8F46ADB28EC3481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AC82A954B60E498205B79E281B5247 /* PromisesObjC.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PromisesObjC/PromisesObjC.modulemap";
+				PRODUCT_MODULE_NAME = FBLPromises;
+				PRODUCT_NAME = FBLPromises;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
+				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520F0F7FDA059C6344694E6876041F49 /* Build configuration list for PBXNativeTarget "Pods-Response Time Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41160F3B638A6788B014453FE8037C88 /* Debug */,
+				A11EFAA227A845D9277A4D15D8A503ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA0CC105C99CE8BFDA51C62E70EA605 /* Debug */,
+				8B2757D413B867ECEFDC200DDE84AFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7350EBF6368E1D9BC38BBC16074D89A /* Build configuration list for PBXNativeTarget "PromisesObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF058B10244C5DB3A8F46ADB28EC3481 /* Debug */,
+				8B7DC317373A745E84C299CB666519D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA16B8954D73698E5D90EA478D253901 /* Build configuration list for PBXNativeTarget "PromisesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E2FD59D8A66557FCCD03F0A3A976D9 /* Debug */,
+				9790A854647EA285AFEE94FE5B0ECA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
